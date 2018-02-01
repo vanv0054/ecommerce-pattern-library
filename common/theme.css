@@ -1,10 +1,10 @@
 :root {
   --color-primary: #484747;
-  --color-secondary: #E9D710;
-  --color-background: #EEEEEE;
+  --color-secondary: #e9d710;
+  --color-background: #eee;
 
-  --font-primary: 'Bitter', serif;
-  --font-secondary: 'Open Sans', sans-serif;
+  --font-primary: "Bitter", serif;
+  --font-secondary: "Open Sans", sans-serif;
 }
 
 html {
