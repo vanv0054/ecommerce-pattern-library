@@ -6,3 +6,7 @@
   --font-primary: 'Bitter', serif;
   --font-secondary: 'Open Sans', sans-serif;
 }
+
+html {
+  font-family: var(--font-primary);
+}
