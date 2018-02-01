@@ -37,5 +37,7 @@ h4 {
 }
 
 mark {
-  color: var(--colour-secondary);
+  color: var(--color-secondary);
+  font-weight: bold;
+  font-style: normal;
 }
