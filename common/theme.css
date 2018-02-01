@@ -13,6 +13,8 @@ html {
 a {
   font-family: var(--font-primary);
   font-weight: bold;
+  font-style: normal;
+  color: var(--color-background);
 }
 
 h1 {
