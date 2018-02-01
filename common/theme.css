@@ -40,4 +40,10 @@ mark {
   color: var(--color-secondary);
   font-weight: bold;
   font-style: normal;
+  background-color: transparent;
+}
+
+dt {
+  font-family: var(--font-primary);
+  font-weight: bold;
 }
