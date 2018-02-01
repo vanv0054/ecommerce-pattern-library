@@ -8,7 +8,6 @@
 
 html {
   font-family: var(--font-primary);
-  color: var(--color-background);
 }
 
 a {
@@ -35,4 +34,8 @@ h3 {
 h4 {
   font-family: var(--font-primary);
   font-weight: bold;
+}
+
+mark {
+  color: var(--colour-secondary);
 }
