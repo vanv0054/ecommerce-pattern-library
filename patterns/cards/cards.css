@@ -1,4 +1,9 @@
+.card {
+  transition: all .2s linear;
+  filter: grayscale(70%);
+}
+
 .card:hover {
   transform: scale(1.1);
-  transition: all .2s linear;
+  filter: grayscale(0);
 }
