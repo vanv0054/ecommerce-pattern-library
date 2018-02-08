@@ -21,4 +21,4 @@ colors:
 
 ---
 
-Rugby Essentials is an ecommerce rugby store where you can get anything that suits your rugby wants and needs
+Rugby Essentials is an ecommerce rugby store where you can get anything that suits your rugby wants and needs.
