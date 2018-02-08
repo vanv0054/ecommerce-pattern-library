@@ -53,6 +53,8 @@ dt {
   border-color: var(--color-primary);
 
   color: var(--color-secondary);
+  transition: color 1000ms linear;
+  transition: all 250ms linear;
 }
 
 .btn-ghost {
