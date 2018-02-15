@@ -1,0 +1,33 @@
+input, select {
+  border-radius: 13px;
+  background-color: #eee;
+  border: solid 2px #000;
+}
+
+input, select:focus {
+  background-color: #fff;
+  border: solid 2px #000;
+  outline: none;
+}
+
+.is-validated input:invalid,
+.is-vaidated input[type="checkbox"]:invalid + label::before {
+  border-color: #f33;
+}
+
+.error-message {
+  display: none;
+  background-color: #fee;
+  color: #c33;
+}
+
+.error-message-highlighted {
+  background-color: #c33;
+  color: #fff;
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message {
+  display: block;
+}
