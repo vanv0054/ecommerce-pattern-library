@@ -23,11 +23,11 @@ h1 {
 
 h2 {
   font-family: var(--font-secondary);
-  font-weight: normal;
+  font-weight: bold;
 }
 
 h3 {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
   font-weight: bold;
 }
 
