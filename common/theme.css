@@ -36,6 +36,11 @@ h4 {
   font-weight: bold;
 }
 
+h5 {
+  font-family: var(--font-primary);
+  font-weight: normal;
+}
+
 mark {
   color: var(--color-secondary);
   font-weight: bold;
