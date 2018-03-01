@@ -4,7 +4,7 @@ input, select {
   border: solid 2px #000;
 }
 
-input, select:focus {
+input:focus, select:focus {
   background-color: #fff;
   border: solid 2px #000;
   outline: none;
