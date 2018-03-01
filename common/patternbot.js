@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/thegermandutchman/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library
- * @version 1519910577831
+ * @version 1519912149527
  */
-const patternManifest_1519910577831 = {
+const patternManifest_1519912149527 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -544,7 +544,8 @@ const patternManifest_1519910577831 = {
     "patterns": [
       "/Users/thegermandutchman/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/buttons",
       "/Users/thegermandutchman/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/cards",
-      "/Users/thegermandutchman/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/forms"
+      "/Users/thegermandutchman/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/forms",
+      "/Users/thegermandutchman/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/sections"
     ],
     "pages": []
   },
@@ -678,6 +679,35 @@ const patternManifest_1519910577831 = {
           "localPath": "patterns/forms/forms.css"
         }
       ]
+    },
+    {
+      "name": "sections",
+      "namePretty": "Sections",
+      "path": "/Users/thegermandutchman/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/sections",
+      "html": [
+        {
+          "name": "cars-section",
+          "namePretty": "Cars section",
+          "path": "/Users/thegermandutchman/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/sections/cars-section.html",
+          "localPath": "patterns/sections/cars-section.html"
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/thegermandutchman/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/sections/README.md",
+          "localPath": "patterns/sections/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "sections",
+          "namePretty": "Sections",
+          "path": "/Users/thegermandutchman/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/sections/sections.css",
+          "localPath": "patterns/sections/sections.css"
+        }
+      ]
     }
   ],
   "config": {
@@ -700,5 +730,5 @@ const patternManifest_1519910577831 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519910577831);
+patternBotIncludes(patternManifest_1519912149527);
 }());
