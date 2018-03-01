@@ -1,4 +1,15 @@
-.before {
-  border-bottom: 2px solid #000;
-  padding-bottom: .5em;
+table {
+  border: none;
+}
+
+td {
+  padding: .5em;
+}
+
+.second {
+  width: 10em;
+}
+
+.no-border td {
+  border: none;
 }
