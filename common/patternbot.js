@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/thegermandutchman/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library
- * @version 1519913810982
+ * @version 1519914866698
  */
-const patternManifest_1519913810982 = {
+const patternManifest_1519914866698 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -686,10 +686,16 @@ const patternManifest_1519913810982 = {
       "path": "/Users/thegermandutchman/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/sections",
       "html": [
         {
-          "name": "products-section",
-          "namePretty": "Products section",
-          "path": "/Users/thegermandutchman/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/sections/products-section.html",
-          "localPath": "patterns/sections/products-section.html"
+          "name": "checkout-image",
+          "namePretty": "Checkout image",
+          "path": "/Users/thegermandutchman/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/sections/checkout-image.html",
+          "localPath": "patterns/sections/checkout-image.html"
+        },
+        {
+          "name": "details-section",
+          "namePretty": "Details section",
+          "path": "/Users/thegermandutchman/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/sections/details-section.html",
+          "localPath": "patterns/sections/details-section.html"
         },
         {
           "name": "your-order",
@@ -736,5 +742,5 @@ const patternManifest_1519913810982 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519913810982);
+patternBotIncludes(patternManifest_1519914866698);
 }());
