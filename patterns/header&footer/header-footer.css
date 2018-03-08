@@ -1,0 +1,60 @@
+.masthead {
+  background-color: var(--color-primary);
+}
+
+.logo {
+  text-align: center;
+  color: var(--color-secondary);
+}
+
+.nav {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav a:hover {
+  color: var(--color-secondary);
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: block;
+  width: 100%;
+}
+
+@media only screen and (min-width: 25em) {
+
+  li {
+    float: left;
+    width: 50%;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+    padding-bottom: 0;
+  }
+
+  li {
+    display: inline-block;
+    width: auto;
+    float: none;
+  }
+
+}
