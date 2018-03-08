@@ -1,0 +1,31 @@
+footer {
+  background-color: var(--color-primary);
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.words li {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (min-width: 25em) {
+
+.logos {
+  text-align: left;
+}
+
+.foot {
+  text-align: right;
+}
+
+.words li {
+  display: inline-block;
+  width: none;
+}
+
+}
