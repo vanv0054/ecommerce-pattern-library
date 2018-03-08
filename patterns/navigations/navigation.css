@@ -1,0 +1,12 @@
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-secondary);
+}
+
+.current {
+  color: var(--color-secondary);
+  font-size: 3em;
+}
