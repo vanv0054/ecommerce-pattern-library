@@ -13,7 +13,7 @@ a {
   text-align: center;
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 38em) {
 
 .logos {
   text-align: left;
@@ -25,7 +25,7 @@ a {
 
 .words li {
   display: inline-block;
-  width: none;
+  width: auto;
 }
 
 }
