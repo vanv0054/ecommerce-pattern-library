@@ -1,6 +1,6 @@
 ---
 image-card: |
-  The image card should only be used on the home page for the top sellers images and the featured products images. These cards have no title.
+  The image card should only be used on the home page for the top sellers images, the featured products images, the similar products for the product details page, and the image of the product on the product details page. These cards have no title.
 title-card: |
   The title card should only be used on the product list page for each image for the category of products. These cards have the title under them
 icon-card: |
