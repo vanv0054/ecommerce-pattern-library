@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/thegermandutchman/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library
- * @version 1521115923724
+ * @version 1521121377746
  */
-const patternManifest_1521115923724 = {
+const patternManifest_1521121377746 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -548,7 +548,8 @@ const patternManifest_1521115923724 = {
       "/Users/thegermandutchman/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/forms",
       "/Users/thegermandutchman/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/header",
       "/Users/thegermandutchman/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/navigations",
-      "/Users/thegermandutchman/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/sections"
+      "/Users/thegermandutchman/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/sections",
+      "/Users/thegermandutchman/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/skip-links"
     ],
     "pages": []
   },
@@ -816,6 +817,21 @@ const patternManifest_1521115923724 = {
           "localPath": "patterns/sections/sections.css"
         }
       ]
+    },
+    {
+      "name": "skip-links",
+      "namePretty": "Skip links",
+      "path": "/Users/thegermandutchman/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/skip-links",
+      "html": [
+        {
+          "name": "skip-links",
+          "namePretty": "Skip links",
+          "path": "/Users/thegermandutchman/Desktop/Semester 4/Web Dev 4/ecommerce-pattern-library/patterns/skip-links/skip-links.html",
+          "localPath": "patterns/skip-links/skip-links.html"
+        }
+      ],
+      "md": [],
+      "css": []
     }
   ],
   "config": {
@@ -838,5 +854,5 @@ const patternManifest_1521115923724 = {
   }
 };
 
-patternBotIncludes(patternManifest_1521115923724);
+patternBotIncludes(patternManifest_1521121377746);
 }());

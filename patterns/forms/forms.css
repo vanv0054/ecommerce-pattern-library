@@ -11,6 +11,7 @@ input:focus, select:focus {
 }
 
 .is-validated input:invalid,
+input.is-validated:invalid,
 .is-vaidated input[type="checkbox"]:invalid + label::before {
   border-color: #f33;
 }
@@ -28,6 +29,7 @@ input:focus, select:focus {
 
 .is-validated > .error-message:first-child,
 .is-validated input:invalid + .error-message,
+input.is-validated:invalid + .error-message,
 .is-validated input:invalid + label + .error-message {
   display: block;
 }

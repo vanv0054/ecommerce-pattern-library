@@ -207,6 +207,16 @@
                   </div>
                 </a>
               </li>
+              <li role="presentation">
+                <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="skip-links" href="#skip-links">
+                  <div class="relative">
+                    <span>Skip links</span>
+                    <i class="icon i-18 absolute pin-cr">
+                      <svg><use xlink:href="#icon-active" /></svg>
+                    </i>
+                  </div>
+                </a>
+              </li>
           <li class="pad-t-1-2" role="presentation">
             <button class="nav-show-all gutter pad-t-1-4 pad-b-1-4 block kilo" id="nav-show-all" aria-pressed="false" title="Show all patterns" aria-label="Show all patterns">
               <span class="nav-show-all-wrap relative block">Show all</span>
@@ -964,7 +974,7 @@
             </ul>
         </div>
           <div class="pattern-desc milli island" style="">
-            <div class="max-length"><p>The image card should only be used on the home page for the top sellers images and the featured products images. These cards have no title.</p>
+            <div class="max-length"><p>The image card should only be used on the home page for the top sellers images, the featured products images, the similar products for the product details page, and the image of the product on the product details page. These cards have no title.</p>
 </div>
           </div>
 
@@ -1064,11 +1074,11 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="cards-title-card-code-sample-copy-chunk">&lt;div class="card"&gt;
+              <code><pre id="cards-title-card-code-sample-copy-chunk">&lt;div class="card" id="products"&gt;
   &lt;figure class="embed embed-3by2">
-    &lt;img class="embed-item" src="../../images/balls.jpg" alt="">
+    &lt;img class="embed-item" src="../../images/balls.jpg" alt="" aria-details="balls">
   &lt;/figure>
-  &lt;div>
+  &lt;div id="balls">
     &lt;p class="text-center">BALLS&lt;/p>
   &lt;/div>
 &lt;/div>
@@ -1343,14 +1353,12 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-email-code-sample-copy-chunk">&lt;form method="post" action="#"&gt;
-  &lt;label class="giga" for="email">Email&lt;/label>
-  &lt;input id="email" type="email" placeholder="me@me.com" required>
-  &lt;p class="error-message milli island-1-4 push-0" id="name-error">
-    &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#form-error"/>&lt;/svg>&lt;/i>
-    &lt;span class="icon-label">Please provide a name&lt;/span>
-  &lt;/p>
-&lt;/form>
+              <code><pre id="forms-email-code-sample-copy-chunk">&lt;label class="giga" for="email"&gt;Email&lt;/label>
+&lt;input id="email" type="email" placeholder="me@me.com" required>
+&lt;p class="error-message milli island-1-4 push-0" id="name-error">
+  &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#form-error"/>&lt;/svg>&lt;/i>
+  &lt;span class="icon-label">Please provide a name&lt;/span>
+&lt;/p>
 </pre></code>
             </div>
           </div>
@@ -1415,14 +1423,12 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-qty-code-sample-copy-chunk">&lt;form method="post" action="#"&gt;
-  &lt;label class="giga" for="number">Qty&lt;/label>
-  &lt;input id="number" type="text" placeholder="#" required>
-  &lt;p class="error-message milli island-1-4 push-0" id="name-error">
-    &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#form-error"/>&lt;/svg>&lt;/i>
-    &lt;span class="icon-label">Please provide a name&lt;/span>
-  &lt;/p>
-&lt;/form>
+              <code><pre id="forms-qty-code-sample-copy-chunk">&lt;label class="giga" for="number"&gt;Qty&lt;/label>
+&lt;input id="number" type="text" placeholder="#" required>
+&lt;p class="error-message milli island-1-4 push-0" id="name-error">
+  &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#form-error"/>&lt;/svg>&lt;/i>
+  &lt;span class="icon-label">Please provide a name&lt;/span>
+&lt;/p>
 </pre></code>
             </div>
           </div>
@@ -1487,14 +1493,12 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-standard-code-sample-copy-chunk">&lt;form method="post" action="#" novalidate=""&gt;
-  &lt;label class="giga" for="name">First Name&lt;/label>
-  &lt;input class="out" id="name" type="text" required aria-describedby="name-error">
-  &lt;p class="error-message milli island-1-4 push-0" id="name-error">
-    &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#form-error"/>&lt;/svg>&lt;/i>
-    &lt;span class="icon-label">Please provide a name&lt;/span>
-  &lt;/p>
-&lt;/form>
+              <code><pre id="forms-standard-code-sample-copy-chunk">&lt;label class="giga" for="name"&gt;First Name&lt;/label>
+&lt;input class="out" id="name" type="text" required aria-describedby="name-error">
+&lt;p class="error-message milli island-1-4 push-0" id="name-error">
+  &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#form-error"/>&lt;/svg>&lt;/i>
+  &lt;span class="icon-label">Please provide a name&lt;/span>
+&lt;/p>
 </pre></code>
             </div>
           </div>
@@ -1555,14 +1559,12 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-tel-code-sample-copy-chunk">&lt;form method="post" action="#"&gt;
-  &lt;label class="giga" for="tel">Phone Number&lt;/label>
-  &lt;input id="tel" type="tel" placeholder="(xxx) xxx-xxxx" required>
-  &lt;p class="error-message milli island-1-4 push-0" id="name-error">
-    &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#form-error"/>&lt;/svg>&lt;/i>
-    &lt;span class="icon-label">Please provide a name&lt;/span>
-  &lt;/p>
-&lt;/form>
+              <code><pre id="forms-tel-code-sample-copy-chunk">&lt;label class="giga" for="tel"&gt;Phone Number&lt;/label>
+&lt;input id="tel" type="tel" placeholder="(xxx) xxx-xxxx" required>
+&lt;p class="error-message milli island-1-4 push-0" id="name-error">
+  &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#form-error"/>&lt;/svg>&lt;/i>
+  &lt;span class="icon-label">Please provide a name&lt;/span>
+&lt;/p>
 </pre></code>
             </div>
           </div>
@@ -1641,10 +1643,10 @@
     &lt;span class="icon-label mega">RUGBY ESSENTIALS&lt;/span>
   &lt;/div>
 
-  &lt;nav class="nav unit xs-1 s-1 m-1 l-1-2">
+  &lt;nav class="nav unit xs-1 s-1 m-1 l-1-2" role="navigation" id="nav">
     &lt;ul class="list-group push-0">
       &lt;li>
-        &lt;a class="text-center kilo gutter-1-2" href="#">PRODUCTS&lt;/a>
+        &lt;a class="text-center kilo gutter-1-2" href="#products">PRODUCTS&lt;/a>
       &lt;/li>
       &lt;li>
         &lt;a class="text-center kilo gutter-1-2" href="#">CONTACT&lt;/a>
@@ -1653,7 +1655,7 @@
         &lt;a class="text-center kilo gutter-1-2" href="#">FAQ&lt;/a>
       &lt;/li>
       &lt;li>
-        &lt;a class="text-center kilo gutter-1-2" href="#">CHECKOUT&lt;/a>
+        &lt;a class="text-center kilo gutter-1-2" href="#checkout">CHECKOUT&lt;/a>
       &lt;/li>
     &lt;/ul>
   &lt;/nav>
@@ -1832,7 +1834,7 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="sections-checkout-image-code-sample-copy-chunk">&lt;section&gt;
+              <code><pre id="sections-checkout-image-code-sample-copy-chunk">&lt;section id="checkout"&gt;
   &lt;figure class="embed embed-3by2 push-1-2">
     &lt;img class="embed-item" src="../../images/topseller-1.jpg" alt="">
   &lt;/figure>
@@ -1970,26 +1972,101 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="sections-your-order-code-sample-copy-chunk">&lt;h2&gt;YOUR ORDER&lt;/h2>
-
-&lt;table>
-  &lt;tr>
-    &lt;td class="first">ITEM&lt;/td>
-    &lt;td class="second bold">$0.00&lt;/td>
-  &lt;/tr>
-  &lt;tr class="no-border">
-    &lt;td>TAX&lt;/td>
-    &lt;td class="bold">$0.00&lt;/td>
-  &lt;/tr>
-  &lt;tr>
-    &lt;td>SHIPPING&lt;/td>
-    &lt;td class="bold">$0.00&lt;/td>
-  &lt;/tr>
-  &lt;tr class="no-border">
-    &lt;td class="bold">TOTAL&lt;/td>
-    &lt;td class="peta bold">$0.00&lt;/td>
-  &lt;/tr>
+              <code><pre id="sections-your-order-code-sample-copy-chunk">&lt;table&gt;
+  &lt;caption class="not-italic peta">YOUR ORDER&lt;/caption>
+  &lt;thead>
+    &lt;tr>
+      &lt;td class="first">ITEM&lt;/td>
+      &lt;td class="second bold">$0.00&lt;/td>
+    &lt;/tr>
+  &lt;/thead>
+  &lt;tbody>
+    &lt;tr class="no-border">
+      &lt;td>TAX&lt;/td>
+      &lt;td class="bold">$0.00&lt;/td>
+    &lt;/tr>
+    &lt;tr>
+      &lt;td>SHIPPING&lt;/td>
+      &lt;td class="bold">$0.00&lt;/td>
+    &lt;/tr>
+    &lt;tr class="no-border">
+      &lt;td class="bold">TOTAL&lt;/td>
+      &lt;td class="peta bold">$0.00&lt;/td>
+    &lt;/tr>
+  &lt;/tbody>
 &lt;/table>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="skip-links" role="tabpanel" hidden aria-hidden="true" style="">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
+    <h2 class="pattern-name exa push-1-4" style="color: #484747; font-family: &quot;Bitter&quot;, serif;">Skip links</h2>
+        <ul class="list-group-inline gutter absolute pin-cr">
+            <li>
+              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="skip-links-skip-links-code-sample">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-code"></use></svg>
+                </i>
+              </button>
+            </li>
+            <li>
+              <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="skip-links/skip-links" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+            </li>
+            <li>
+              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/skip-links/skip-links.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-pop-out"></use></svg>
+                </i>
+              </a>
+            </li>
+        </ul>
+  </div>
+
+
+  
+
+    <div class="pattern-details " id="skip-links--skip-links" style="">
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/skip-links/skip-links.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="skip-links-skip-links-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#skip-links-skip-links-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="skip-links-skip-links-code-sample-copy-chunk">&lt;ul class="skip-links"&gt;
+  &lt;li>&lt;a href="#nav">Skip to navigation&lt;/a>&lt;/li>
+  &lt;li>&lt;a href="#form">Skip to form&lt;/a>&lt;/li>
+&lt;/ul>
 </pre></code>
             </div>
           </div>
