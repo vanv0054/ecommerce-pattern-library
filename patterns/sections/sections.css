@@ -13,3 +13,8 @@ td {
 .no-border td {
   border: none;
 }
+
+caption {
+  font-family: var(--font-secondary);
+  font-weight: bold;
+}
