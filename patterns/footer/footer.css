@@ -15,17 +15,17 @@ a {
 
 @media only screen and (min-width: 38em) {
 
-.logos {
-  text-align: left;
-}
+  .logos {
+    text-align: left;
+  }
 
-.foot {
-  text-align: right;
-}
+  .foot {
+    text-align: right;
+  }
 
-.words li {
-  display: inline-block;
-  width: auto;
-}
+  .words li {
+    display: inline-block;
+    width: auto;
+  }
 
 }
