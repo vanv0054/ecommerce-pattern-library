@@ -6,7 +6,7 @@ a:hover {
   color: var(--color-secondary);
 }
 
-.current {
+.current-page {
   color: var(--color-secondary);
   font-size: 3em;
 }

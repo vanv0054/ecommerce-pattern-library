@@ -2,6 +2,10 @@
   background-color: var(--color-primary);
 }
 
+.nav .current {
+  color: var(--color-secondary);
+}
+
 .logo {
   text-align: center;
   color: var(--color-secondary);
