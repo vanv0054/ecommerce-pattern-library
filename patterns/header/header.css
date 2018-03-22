@@ -21,18 +21,18 @@
   color: var(--color-secondary);
 }
 
-ul {
+header ul {
   list-style-type: none;
 }
 
-li {
+header li {
   display: block;
   width: 100%;
 }
 
 @media only screen and (min-width: 25em) {
 
-  li {
+   header li {
     float: left;
     width: 50%;
     text-align: center;
@@ -51,7 +51,7 @@ li {
     padding-bottom: 0;
   }
 
-  li {
+  header li {
     display: inline-block;
     width: auto;
     float: none;
