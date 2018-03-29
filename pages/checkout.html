@@ -31,72 +31,64 @@
 
     <div class="max-length">
 
-    <fieldset>
-      <legend class="gutter giga">PERSONAL INFORMATION</legend>
-      <div class="grid">
-
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
-          <script type="application/json" data-pattern="forms/standard"></script>
-        </div>
-
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter push-1-2">
-          <script type="application/json" data-pattern="forms/standard">
-            {
-              "label": "Last Name"
-            }
-          </script>
-        </div>
-
-        <div class="unit xs-1 s-1 m-1 l-1 gutter push-1-2">
-          <script type="application/json" data-pattern="forms/email"></script>
-        </div>
-
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
-          <script type="application/json" data-pattern="forms/dropdown">
-            {
-              "label": "Country",
-              "option:first-child": "Please Select Country",
-              "option:nth-child(2)": "Canada",
-              "option:nth-child(3)": "United States",
-              "option:nth-child(4)": "New Zealand",
-              "option:nth-child(5)": "Australia",
-              "option:nth-child(6)": "Scotland",
-              "option:nth-child(7)": "Ireland"
-            }
-          </script>
-        </div>
-
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter push-1-2">
-          <script type="application/json" data-pattern="forms/standard">
-            {
-              "label": "Postal Code"
-            }
-          </script>
-        </div>
-
-        <div class="unit xs-1 s-1 m-1 l-1 gutter push-1-2">
-          <script type="application/json" data-pattern="forms/tel"></script>
-        </div>
-
-      </div>
-    </fieldset>
-
-    <fieldset>
-      <legend class="gutter giga">ADDRESS</legend>
-      <div class="grid">
-
-        <div class="unit xs-1 s-1 m-1 l-1 gutter push-1-2">
-          <script type="application/json" data-pattern="forms/standard">
-            {
-              "label": "Credit Card Number"
-            }
-          </script>
-        </div>
+      <fieldset>
+        <legend class="gutter giga">PERSONAL INFORMATION</legend>
+        <div class="grid">
 
           <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+            <script type="application/json" data-pattern="forms/standard"></script>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter push-1-2">
             <script type="application/json" data-pattern="forms/standard">
               {
-                "label": "Security Code"
+                "label": "Last Name"
+              }
+            </script>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1 l-1 gutter push-1-2">
+            <script type="application/json" data-pattern="forms/email"></script>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+            <script type="application/json" data-pattern="forms/dropdown">
+              {
+                "label": "Country",
+                "option:first-child": "Please Select Country",
+                "option:nth-child(2)": "Canada",
+                "option:nth-child(3)": "United States",
+                "option:nth-child(4)": "New Zealand",
+                "option:nth-child(5)": "Australia",
+                "option:nth-child(6)": "Scotland",
+                "option:nth-child(7)": "Ireland"
+              }
+            </script>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter push-1-2">
+            <script type="application/json" data-pattern="forms/standard">
+              {
+                "label": "Postal Code"
+              }
+            </script>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1 l-1 gutter push-1-2">
+            <script type="application/json" data-pattern="forms/tel"></script>
+          </div>
+
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend class="gutter giga">ADDRESS</legend>
+        <div class="grid">
+
+          <div class="unit xs-1 s-1 m-1 l-1 gutter push-1-2">
+            <script type="application/json" data-pattern="forms/standard">
+              {
+                "label": "Credit Card Number"
               }
             </script>
           </div>
@@ -104,13 +96,21 @@
             <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
               <script type="application/json" data-pattern="forms/standard">
                 {
-                  "label": "Expiration Date"
+                  "label": "Security Code"
                 }
               </script>
             </div>
 
-        </div>
-    </fieldset>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+                <script type="application/json" data-pattern="forms/standard">
+                  {
+                    "label": "Expiration Date"
+                  }
+                </script>
+              </div>
+
+          </div>
+      </fieldset>
 
     </div>
 
@@ -123,7 +123,7 @@
           ".last": "$19.98"
         }
       </script>
-      </div>
+    </div>
 
     <div class="text-center">
       <script type="application/json" data-pattern="buttons/buttons">
