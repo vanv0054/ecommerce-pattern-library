@@ -14,5 +14,72 @@
     }
   </script>
 
+  <main class="push-1-2" role="main" id="main">
+
+      <div>
+        <h2 class="text-center pad-t">WHAT YOU GOT!</h2>
+      </div>
+
+      <div class="push-2 max-length">
+        <script type="application/json" data-pattern="cards/title-card">
+          {
+            "img[src]": "../../images/jerseys.jpg",
+            "p": "JERSEY"
+          }
+        </script>
+      </div>
+
+      <fieldset>
+        <legend class="gutter">PERSONAL INFORMATION</legend>
+        <div class="grid">
+
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+            <script type="application/json" data-pattern="forms/standard"></script>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter push-1-2">
+            <script type="application/json" data-pattern="forms/standard">
+              {
+                "label": "Last Name"
+              }
+            </script>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1 l-1 gutter push-1-2">
+            <script type="application/json" data-pattern="forms/email"></script>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+            <script type="application/json" data-pattern="forms/dropdown">
+              {
+                "label": "Country",
+                "option:first-child": "Please Select Country",
+                "option:second-child": "Canada",
+                "option:third-child": "United States",
+                "option:fourth-child": "New Zealand",
+                "option:fifth-child": "Australia",
+                "option:sixth-child": "Scotland",
+                "option:seventh-child": "Ireland"
+              }
+            </script>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter push-1-2">
+            <script type="application/json" data-pattern="forms/standard">
+              {
+                "label": "Postal Code"
+              }
+            </script>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1 l-1 gutter push-1-2">
+            <script type="application/json" data-pattern="forms/tel"></script>
+          </div>
+
+        </div>
+      </fieldset>
+
+  </main>
+
 </body>
 </html>
