@@ -1,3 +1,7 @@
+fieldset {
+  border: none;
+}
+
 input, select {
   border-radius: 13px;
   background-color: #eee;
