@@ -111,7 +111,14 @@
       </fieldset>
 
       <div class="max-length">
-        <script type="application/json" data-pattern="sections/your-order"></script>
+        <script type="application/json" data-pattern="sections/your-order">
+          {
+            ".second": "$10.99",
+            ".third": "$3.00",
+            ".fourth": "$5.99",
+            ".last": "$19.98"
+          }
+        </script>
        </div>
 
       <div class="text-center">
@@ -123,7 +130,9 @@
       </div>
   </main>
 
-  <script type="application/json" data-pattern="footer/footer"></script>
+  <div class="pad-t-1-2">
+    <script type="application/json" data-pattern="footer/footer"></script>
+  </div>
 
 </body>
 </html>
