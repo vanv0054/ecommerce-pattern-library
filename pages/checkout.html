@@ -16,79 +16,87 @@
 
   <main class="push-1-2" role="main" id="main">
 
-      <div>
-        <h2 class="text-center pad-t">WHAT YOU GOT!</h2>
-      </div>
+    <div>
+      <h2 class="text-center pad-t">WHAT YOU GOT!</h2>
+    </div>
 
-      <div class="push-2 max-length">
-        <script type="application/json" data-pattern="cards/title-card">
-          {
-            "img[src]": "../../images/jerseys.jpg",
-            "p": "JERSEY"
-          }
-        </script>
-      </div>
+    <div class="push-2 max-length">
+      <script type="application/json" data-pattern="cards/title-card">
+        {
+          "img[src]": "../../images/jerseys.jpg",
+          "p": "JERSEY"
+        }
+      </script>
+    </div>
 
-      <div class="max-length">
+    <div class="max-length">
 
-      <fieldset>
-        <legend class="gutter giga">PERSONAL INFORMATION</legend>
-        <div class="grid">
+    <fieldset>
+      <legend class="gutter giga">PERSONAL INFORMATION</legend>
+      <div class="grid">
 
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
-            <script type="application/json" data-pattern="forms/standard"></script>
-          </div>
-
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter push-1-2">
-            <script type="application/json" data-pattern="forms/standard">
-              {
-                "label": "Last Name"
-              }
-            </script>
-          </div>
-
-          <div class="unit xs-1 s-1 m-1 l-1 gutter push-1-2">
-            <script type="application/json" data-pattern="forms/email"></script>
-          </div>
-
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
-            <script type="application/json" data-pattern="forms/dropdown">
-              {
-                "label": "Country",
-                "option:first-child": "Please Select Country",
-                "option:nth-child(2)": "Canada",
-                "option:nth-child(3)": "United States",
-                "option:nth-child(4)": "New Zealand",
-                "option:nth-child(5)": "Australia",
-                "option:nth-child(6)": "Scotland",
-                "option:nth-child(7)": "Ireland"
-              }
-            </script>
-          </div>
-
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter push-1-2">
-            <script type="application/json" data-pattern="forms/standard">
-              {
-                "label": "Postal Code"
-              }
-            </script>
-          </div>
-
-          <div class="unit xs-1 s-1 m-1 l-1 gutter push-1-2">
-            <script type="application/json" data-pattern="forms/tel"></script>
-          </div>
-
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+          <script type="application/json" data-pattern="forms/standard"></script>
         </div>
-      </fieldset>
 
-      <fieldset>
-        <legend class="gutter giga">ADDRESS</legend>
-        <div class="grid">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter push-1-2">
+          <script type="application/json" data-pattern="forms/standard">
+            {
+              "label": "Last Name"
+            }
+          </script>
+        </div>
 
-          <div class="unit xs-1 s-1 m-1 l-1 gutter push-1-2">
+        <div class="unit xs-1 s-1 m-1 l-1 gutter push-1-2">
+          <script type="application/json" data-pattern="forms/email"></script>
+        </div>
+
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+          <script type="application/json" data-pattern="forms/dropdown">
+            {
+              "label": "Country",
+              "option:first-child": "Please Select Country",
+              "option:nth-child(2)": "Canada",
+              "option:nth-child(3)": "United States",
+              "option:nth-child(4)": "New Zealand",
+              "option:nth-child(5)": "Australia",
+              "option:nth-child(6)": "Scotland",
+              "option:nth-child(7)": "Ireland"
+            }
+          </script>
+        </div>
+
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter push-1-2">
+          <script type="application/json" data-pattern="forms/standard">
+            {
+              "label": "Postal Code"
+            }
+          </script>
+        </div>
+
+        <div class="unit xs-1 s-1 m-1 l-1 gutter push-1-2">
+          <script type="application/json" data-pattern="forms/tel"></script>
+        </div>
+
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend class="gutter giga">ADDRESS</legend>
+      <div class="grid">
+
+        <div class="unit xs-1 s-1 m-1 l-1 gutter push-1-2">
+          <script type="application/json" data-pattern="forms/standard">
+            {
+              "label": "Credit Card Number"
+            }
+          </script>
+        </div>
+
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
             <script type="application/json" data-pattern="forms/standard">
               {
-                "label": "Credit Card Number"
+                "label": "Security Code"
               }
             </script>
           </div>
@@ -96,42 +104,34 @@
             <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
               <script type="application/json" data-pattern="forms/standard">
                 {
-                  "label": "Security Code"
+                  "label": "Expiration Date"
                 }
               </script>
             </div>
 
-              <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
-                <script type="application/json" data-pattern="forms/standard">
-                  {
-                    "label": "Expiration Date"
-                  }
-                </script>
-              </div>
+        </div>
+    </fieldset>
 
-          </div>
-      </fieldset>
+    </div>
 
+    <div class="max-length">
+      <script type="application/json" data-pattern="sections/your-order">
+        {
+          ".second": "$10.99",
+          ".third": "$3.00",
+          ".fourth": "$5.99",
+          ".last": "$19.98"
+        }
+      </script>
       </div>
 
-      <div class="max-length">
-        <script type="application/json" data-pattern="sections/your-order">
-          {
-            ".second": "$10.99",
-            ".third": "$3.00",
-            ".fourth": "$5.99",
-            ".last": "$19.98"
-          }
-        </script>
-       </div>
-
-      <div class="text-center">
-        <script type="application/json" data-pattern="buttons/buttons">
-          {
-            "a": "PURCHASE"
-          }
-        </script>
-      </div>
+    <div class="text-center">
+      <script type="application/json" data-pattern="buttons/buttons">
+        {
+          "a": "PURCHASE"
+        }
+      </script>
+    </div>
   </main>
 
   <div class="pad-t-1-2">
