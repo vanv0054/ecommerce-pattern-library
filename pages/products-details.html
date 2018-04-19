@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Product Details</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="../common/patternbot.js"></script>
+</head>
+<body>
+  <script type="application/json" data-pattern="header/header"></script>
+  <section class="wrapper pad-t-2">
+    <div class="grid">
+      <div class="unit xs-1 m-1-2 gutter">
+        <script type="application/json" data-pattern="cards/image-card"></script>
+        <div class="text-center">
+          <a class="btn btn-ghost" href="#">Ghost button</a>
+        </div>
+      </div>
+      <div class="unit xs-1 m-1-2 gutter">
+        <H2 class="push-0">Product</H2>
+        <p class="tena bold push-0">$0.00</p>
+        <script type="application/json" data-pattern="forms/dropdown"></script>
+        <script type="application/json" data-pattern="forms/qty"></script>
+        <div class="pad-t-1-2">
+          <a class="btn" href="#">Standard button</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="wrapper gutter pad-t-2">
+    <h3 class="push-0">DETAILS</h3>
+    <p>This comes in small, medium, and large and is a nice purchase. It has had great reviews and continues to be a best seller for Rugby Essentials.</p>
+  </section>
+  <section class="wrapper pad-t-2">
+    <div class="grid">
+      <div class="unit xs-1 text-center">
+        <h3 class="text-upper">Similar Products</h3>
+      </div>
+      <div class="unit xs-1 m-1-4 gutter-1-2">
+        <script type="application/json" data-pattern="cards/image-card"></script>
+      </div>
+      <div class="unit xs-1 m-1-4 gutter-1-2">
+        <script type="application/json" data-pattern="cards/image-card"></script>
+      </div>
+    </div>
+  </section>
+  <script type="application/json" data-pattern="footer/footer"></script>
+</body>
+</html>
